@@ -1,0 +1,43 @@
+<html>
+    <head>
+<title>Example of Array</title>
+    </head>
+    <body>
+        <script>
+            //craeting array literal
+        document.write("<h4>Array literal</h4>");
+        let city=["delhi","Banglore","Munmbai","UP"];
+
+        //iterate over an array using for loop
+        for(var i=0; i<city.length;i++){
+            document.write(city[i]+ "<br/>");
+
+        }
+        </script>
+        <script>
+            //array object
+            document.write("<h4>Array Object</h4>");
+                let color = new Array()
+                color[0] = "red";
+                color[1] = "green";
+                color[2] = "blue";
+                color[3] = "orange";
+                color[4] = "purple";
+                //iterate over an array using for loop
+                for(var i=0;i<color.length;i++){
+                    document.write(color[i]+ "<br/>");
+                }
+        </script>
+
+<script>
+    //array constructor
+    document.write("<h4>Array constructor</h4>");
+        var  techskill  = new Array("java","css","javascript","react","angular")
+      
+        //iterate over an array using for loop
+        for(var i=0;i<techskill.length;i++){
+            document.write(techskill[i]+ "<br/>");
+        }
+</script>
+    </body>
+</html>

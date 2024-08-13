@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> using object constructor using new keyword</title>
+    </head>
+    <body>
+        <script>
+            function employee(empid,empname,empsalary){
+                this.empid=empid;
+                this.empname=empname;
+                this.empsalary=empsalary;
+            }
+            var emp=employee(101,"vkm",10000)
+            document.write("id is :"+emp.empid+ "<br/>");
+            document.write("name is :"+emp.empname+"<br/>");
+            document.write("salary is :"+emp.empsalary+"<br/>");
+        </script>
+    </body>
+</html>
